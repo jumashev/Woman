@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  padding: 0;
+  margin: 0 auto;
+}
+
+#header {
+  background: rgba(222, 116, 218, 0.99);
+  padding: 20px 30px;
+}
+#header .header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+#header .header h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+#header .header--link {
+  margin-left: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+#header .header--link a {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 54px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 0 27px;
+}
+#header .header--link a:hover {
+  background: transparent;
+  color: purple;
+}
+#header .header--link--items {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 56px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-content: center;
+  color: #FFFFFF;
+}
+
+#hero {
+  background: rgba(222, 116, 218, 0.99);
+}
+#hero .hero {
+  display: flex;
+  justify-content: space-between;
+}
+#hero .hero--text {
+  padding: 80px 30px;
+}
+#hero .hero--text h1 {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 82px;
+  color: #FFFFFF;
+}
+#hero .hero--text p {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+#hero .hero--text button {
+  margin-top: 50px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 10px 30px;
+  background: hotpink;
+  transition: 0.6s;
+  border-radius: 20px;
+  border: none;
+}
+#hero .hero--text button .hover {
+  background: transparent;
+  transform: scale(1.1);
+}
+
+#book-group .book-group {
+  background: rgba(222, 116, 218, 0.99);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+#book-group .book-group--nav {
+  padding: 0 30px;
+}
+#book-group .book-group--nav h2 {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 82px;
+  color: #FFFFFF;
+}
+#book-group .book-group--nav img {
+  margin-top: 30px;
+}
+#book-group .book-group--input p {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+#book-group .book-group--input--one {
+  padding: 20px 30px;
+  width: 607px;
+  height: 350px;
+  background: rgba(135, 92, 170, 0.4);
+  border-radius: 30px;
+  margin-top: 50px;
+  margin-right: 89px;
+}
+#book-group .book-group--input--one ul {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 52px;
+  color: #FFFFFF;
+}
+#book-group .book-group--input--one--in {
+  width: 560px;
+  height: 45.61px;
+  background: #C4C4C4;
+  border-radius: 40px;
+}
+
+#book-one {
+  background: rgba(222, 116, 218, 0.99);
+}
+#book-one .book-one {
+  padding: 80px 30px;
+}
+#book-one .book-one--two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#text-img-group {
+  background: rgba(222, 116, 218, 0.99);
+  padding: 20px 40px;
+}
+#text-img-group .text-img-group h3 {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 82px;
+  color: #FFFFFF;
+}
+#text-img-group .text-img-group--one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#text-img-group .text-img-group--one p {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+#footer {
+  background: rgba(135, 92, 170, 0.81);
+  padding: 20px 40px;
+}
+#footer .footer h5 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  color: #FFFFFF;
+}
+#footer .footer p {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  color: #FFFFFF;
+  padding-left: 50px;
+}
+#footer .footer--text {
+  display: flex;
+  justify-content: start;
+}
+#footer .footer--text input {
+  width: 533px;
+  height: 46px;
+  background: #C4C4C4;
+  border-radius: 40px;
+}
+#footer .footer--text button {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  background: purple;
+}
+#footer .footer a {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  color: #FFFFFF;
+}
+#footer .footer button {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  background: purple;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 30px;
+  margin-left: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

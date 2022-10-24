@@ -1,0 +1,23 @@
+//@mixin btn{
+//  font-weight: 300;
+//  font-size: 24px;
+//  line-height: 36px;
+//  display: flex;
+//  align-items: center;
+//  text-align: center;
+//  //color: #FFFFFF;
+//  padding: 10px 30px;
+//  transition: .6s;
+//  background: transparent;
+//  border: none;
+//  &:hover{
+//    background: transparent;
+//    transform: scale(1.1);
+//  }
+//}
+
+@mixin df {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
